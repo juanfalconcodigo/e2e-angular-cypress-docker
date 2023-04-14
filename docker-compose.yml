@@ -1,0 +1,13 @@
+version: "3.9"  # optional since v1.27.0
+services:
+
+  webapp:
+    image: frontend-e2e
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./cypress:/app/cypress
+      - ./.nyc_output:/app/.nyc_output
+      - ./coverage:/app/coverage
+      - ./results:/app/results

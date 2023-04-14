@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-e2e-cypress';
+  title = 'Juan Falcon example project e2e with cypres and docker deployment';
 }

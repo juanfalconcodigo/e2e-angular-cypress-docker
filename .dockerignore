@@ -1,0 +1,7 @@
+/.angular
+/.nyc_output
+.vscode
+/results
+/coverage
+/dist
+/node_modules
